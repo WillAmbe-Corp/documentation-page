@@ -67,3 +67,33 @@ a{
     overflow-y: scroll;
     border-right: 3px solid rgb(200, 200, 200);
 }
+.end{
+    color: rgb(0, 221, 255);
+    text-decoration: dashed;
+    border-bottom: 1px solid rgb(0, 221, 255);
+}
+
+@media (max-width: 720px) {
+    body{
+        display: block;
+    }    
+    #main-doc li, p{
+        width: 85vw;
+        margin-right: 30px;
+        line-height: 1.6;
+        font-size: 18px;
+    }
+    header{
+        font-size: 30px;
+    }
+    .line-one{
+        position: sticky;
+        top: 65px;
+        color: black;
+        font-weight: 900;
+    }
+     h1{
+        top: 0;
+        position: sticky;
+    }
+}
